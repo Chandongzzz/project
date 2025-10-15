@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mẫu trang web đơn giản</title>
+  <style>
+    :root{font-family: Inter, Arial, sans-serif;color:#222}
+    body{margin:0;padding:24px;background:#f6f8fa}
+    .card{max-width:900px;margin:0 auto;background:#fff;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.06);padding:24px}
+    h1{margin-top:0}
+    .gallery{display:flex;gap:12px;flex-wrap:wrap}
+    .gallery img{width:calc(33% - 8px);border-radius:8px;display:block}
+    ul{margin:16px 0;padding-left:20px}
+    a.button{display:inline-block;padding:10px 14px;border-radius:8px;background:#0b6efd;color:#fff;text-decoration:none}
+    footer{margin-top:18px;font-size:13px;color:#555}
+    @media (max-width:600px){.gallery img{width:100%}}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Bài tập: Tạo trang web đơn giản</h1>
+    <p>Yêu cầu: trang này có <strong>ít nhất 3 ảnh</strong>, <strong>danh sách 3 mục</strong> và <strong>một liên kết</strong>. Dùng file này làm đề bài để code lại hoặc mở rộng.</p>
+
+    <section>
+      <h2>Thư viện ảnh (ít nhất 3 ảnh)</h2>
+      <div class="gallery">
+        <img src="https://picsum.photos/id/1015/800/600" alt="Ảnh 1 - phong cảnh">
+        <img src="https://picsum.photos/id/1025/800/600" alt="Ảnh 2 - động vật">
+        <img src="https://picsum.photos/id/1035/800/600" alt="Ảnh 3 - kiến trúc">
+      </div>
+    </section>
+
+    <section>
+      <h2>Danh sách việc cần làm (3 mục)</h2>
+      <ul>
+        <li>Viết HTML cơ bản: header, section, footer.</li>
+        <li>Thêm CSS để làm đẹp (gợi ý: border-radius, box-shadow).</li>
+        <li>Thêm JavaScript nhỏ (ví dụ: sự kiện click thay đổi ảnh).</li>
+      </ul>
+    </section>
+
+    <p>Nếu cần tham khảo hoặc nộp bài, mở liên kết bên dưới:</p>
+    <p><a class="button" href="https://example.com" target="_blank" rel="noopener">Mở liên kết mẫu</a></p>
+
+    <footer>
+      <small>Gợi ý: thử thay src của ảnh, thay nội dung danh sách, hoặc thêm form nộp bài.</small>
+    </footer>
+  </div>
+</body>
+</html>
